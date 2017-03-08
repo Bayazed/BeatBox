@@ -15,11 +15,12 @@ public class Sound {
         mName = filename.replace(".wav", "");
     }
 
-    public String getName() {
-        return mName;
-    }
-
     public String getAssetPath() {
         return mAssetPath;
     }
+
+    public String getName() {
+        return mName;
+    }
 }
+
